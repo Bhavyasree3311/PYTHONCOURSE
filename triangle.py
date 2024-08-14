@@ -1,0 +1,12 @@
+import turtle
+turtle.setup(800,600)
+window=turtle.Screen()
+window.title('my first turtle')
+tr=turtle.getturtle()
+tr.hideturtle()
+tr.forward(100)
+tr.left(120)
+tr.forward(100)
+tr.left(120)
+tr.forward(100)
+turtle.exitonclick()
